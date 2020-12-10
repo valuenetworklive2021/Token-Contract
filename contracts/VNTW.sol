@@ -263,7 +263,7 @@ contract VNTW is Context, IERC20 {
 
     uint256 private _totalSupply;
 
-    string private _name = "VNTW";
+    string private _name = "Value Network Token";
     string private _symbol = "VNTW";
     uint8 private _decimals = 18;
 
