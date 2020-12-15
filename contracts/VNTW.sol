@@ -277,7 +277,8 @@ contract VNTW is Context, IERC20 {
      * construction.
      */
     constructor () public {
-        _balances[msg.sender] = 100000000000000000000000000; 
+        _balances[msg.sender] = 100000000000000000000000000;
+        _totalSupply = 100000000000000000000000000;
     }
 
     /**
